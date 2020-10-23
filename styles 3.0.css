@@ -1,0 +1,93 @@
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.sign-in {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.signin {
+  text-align: right;
+  width: 30.5%
+}
+
+.registration {
+  text-align: center;
+  width: 40%
+}
+.s {
+  padding-left: 35px;
+  text-decoration: underline;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  font-size: 24px;
+  transition: .3s ease-in-out;
+  display: inline-block;
+}
+
+.facebook {
+  text-align: right;
+  width: 19.6%;
+}
+
+.or {
+text-align: right;
+width: 10%
+}
+
+.google {
+  text-align: right;
+  width: 28.5%
+}
+
+.google1 {
+  text-align: right;
+  width: 37.5%
+}
+
+.somestyle {
+  display: inline-block;
+}
+
+
+
